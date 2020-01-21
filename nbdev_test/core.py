@@ -9,6 +9,6 @@ def say_hello(to):
 
 # Cell
 class HelloSayer:
-    "Say hello to 'to' using 'say hello'"
+    "Say hello to `to` using [`say hello`](/tutorial#say_hello)"
     def __init__(self, to): self.to = to
     def say(self): return say_hello(self.to)
